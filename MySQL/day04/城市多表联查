@@ -1,0 +1,5 @@
+城市多表联查
+select sheng.s_name, city.c_name, xian.x_name from sheng, city, xian
+where
+sheng.s_id = city.cfather_id and
+city.c_id = xian.xfather_id;

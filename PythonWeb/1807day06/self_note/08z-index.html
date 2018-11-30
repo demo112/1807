@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>堆叠次序调整</title>
+    <style>
+        div{
+            width: 200px;
+            height: 200px;
+            display: block;
+            position: relative;
+        }
+        #d1{
+            background-color: red;
+            position: absolute;
+            top: 50px;
+            left: 50px;
+        }
+        /*如果元素z-index属性值相同，后来者居上*/
+        #d2{
+            background-color: green;
+            position: absolute;
+        }
+        #d3{
+            background-color: blue;
+            position: absolute;
+        }
+        #d1:hover, #d2:hover, #d3:hover{
+            /*z-index属性只能用在已定位的元素上（position : relative / absolute / fixed）*/
+            z-index: 1;
+        }
+    </style>
+</head>
+<body>
+    <div id="d1"></div>
+    <div id="d2">
+        <!--父子元素都设置z-index，永远是子元素在上，不受z-index影响-->
+        <div id="d3"></div>
+    </div>
+
+</body>
+</html>

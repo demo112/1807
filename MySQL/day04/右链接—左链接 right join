@@ -1,0 +1,20 @@
+右链接—左链接 right join
+select sheng.s_name, city.c_name, xian.x_name from sheng
+right join city
+on sheng.s_id = city.cfather_id 
+right join xian
+on city.c_id = xian.xfather_id;
+全部显示县，全部显示符合县条件的市
+
++-----------+--------------+--------------+
+| s_name    | c_name       | x_name       |
++-----------+--------------+--------------+
+| 河北省    | 石家庄市     | 正定县       |
+| 湖北省    | 武汉市       | 武昌区       |
+| NULL      | 上海市       | 浦东新区     |
+| NULL      | 雄安新区     | 安新县       |
+| NULL      | 雄安新区     | 容城县       |
+| NULL      | 雄安新区     | 雄县         |
+| NULL      | NULL         | 哈哈         |
+| NULL      | NULL         | 嘎嘎         |
++-----------+--------------+--------------+

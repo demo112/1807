@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>下拉菜单模块</title>
+    <style>
+        ul, ol{
+            width: 100px;
+            /*取消项目符号*/
+            list-style: none;
+            margin: 0;
+            padding: 0;
+        }
+        ol{
+            display: none;
+        }
+        ul>li:hover>ol{
+            display: block;
+            background-color: #cccccc;
+        }
+        ol>li:hover{
+            background-color: #777777;
+            font-weight: bold;
+        }
+
+    </style>
+</head>
+<body>
+    <ul>
+        <li>
+            北京
+            <ol>
+                <li>上海</li>
+                <li>广州</li>
+                <li>深圳</li>
+            </ol>
+        </li>
+    </ul>
+</body>
+</html>

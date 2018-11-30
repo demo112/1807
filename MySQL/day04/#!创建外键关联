@@ -1,0 +1,53 @@
+#!创建外键关联
+
+create table jftab(
+id int primary key,
+name varchar(20) not null,
+class char(5),
+money smallint
+)character set utf8;
+
+create table bjtab(
+stu_id int,
+name varchar(20) not null,
+money smallint,
+foreign key(stu_id) references jftab(id)
+on delete cascade
+on update cascade
+)character set utf8;
+
+
+insert into jftab values
+(1, '唐伯虎', 'AID07', 300),
+(2, '点秋香', 'AID07', 300),
+(3, '祝枝山', 'AID07', 300);
+
+# 错误示范
+insert into bjtab values
+(4, '文征明', 'AID07', 300);
+ERROR 1136 (21S01): Column count doesn't match value count at row 1
+
+insert into bjtab values
+(1, '唐伯虎', 300);
+
+
+# 删除主表中的记录，从表中也会删除
+delete from jftab where name='唐伯虎'；
+
+mysql> select stu_id, name, money from bjtab;
+Empty set (0.00 sec)
+
+insert into bjtab values
+(2, '点秋香', 300);
+
+update jftab set id=8 where name='点秋香';
+
+删除外键
+alter table bjtab drop foreign key bjtab_ibfk_1；
+添加外键
+alter table bjtab add
+foreign key(stu_id) references jftab(id);
+
+找出每个国家攻击力最高的英雄的名字和攻击值
+select name, gongji from sanguo 
+where in(select max(gongji) from sanguo group by country);

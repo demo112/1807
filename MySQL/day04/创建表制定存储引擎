@@ -1,0 +1,7 @@
+创建表制定存储引擎
+	create table 表名 engine = MyISAM;
+		MyIASM不支持事物回滚和外键
+
+create table t3(
+id int
+)engine=MyISAM charset = utf8;

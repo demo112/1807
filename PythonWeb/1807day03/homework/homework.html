@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>homework</title>
+    <style>
+        /*table{width: 100px}*/
+        td.first{width: 50px; height: 50px;}
+        td.sed{width: 200px; height: 50px;}
+        input.in{width: 200px;}
+        #head{width: 200px;}
+    </style>
+</head>
+<body>
+    <h1 id="head">增加管理员</h1>
+    <!--思路-->
+    <!--创建表格-->
+    <!--文本框-->
+    <!--单选框-->
+    <!--单选框多选框-->
+        <!--居中-->
+    <!--文件选择-->
+    <!--提交按钮-->
+    <!--重置按钮-->
+    <table>
+        <tbody>
+        <form>
+            <!--第一行-->
+            <tr>
+                <td class="first">姓名：</td>
+                <td class="sed">
+                    <input type="text" maxlength="10" title="inp" class="in">
+                </td>
+                <td>
+                    10个字符以内
+                </td>
+            </tr>
+            <!--第二行-->
+            <tr>
+                <td class="first">密码：</td>
+                <td class="sed">
+                    <input type="password" maxlength="10" title="pswd" class="in">
+                </td>
+                <td>
+                    10个字符以内
+                </td>
+            </tr>
+            <tr>
+                <td class="first">性别：</td>
+                <td class="sed">
+                    <input type="radio" name="gender" value="female">女士
+                    <input type="radio" name="gender" value="male">男士
+                </td>
+                <!--保持结构完整性-->
+                <td></td>
+            </tr>
+            <tr>
+                <td class="first">角色：</td>
+                <td class="sed">
+                    <!--添加name保持一致-->
+                    <input type="checkbox" name="admin" value="choose">超级管理员
+                    <br>
+                    <input type="checkbox" name="admin" value="choose">账单管理员
+                </td>
+                <td>至少选择一个角色</td>
+            </tr>
+            <tr>
+                <td class="first">头像：</td>
+                <td class="sed">
+                    <input type="file" class="in">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="hidden">
+                </td>
+                <td class="sed">
+                    <input type="submit" value="保存">
+                    <input type="reset" value="重填">
+                </td>
+            </tr>
+        </form>
+        </tbody>
+    </table>
+</body>
+</html>

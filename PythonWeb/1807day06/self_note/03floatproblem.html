@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>导航条</title>
+    <style>
+        body, ul{
+            margin: 0;
+        }
+        div{
+            display: block;
+        }
+        #main{
+            height: 500px;
+            background-color: green;
+        }
+        #nav, #main{
+            width: 900px;
+            margin: 0 auto;
+        }
+        #nav{
+            /*height: 0;*/
+            /*overflow: hidden;*/
+            /*background-color: pink;*/
+        }
+        #nav ul{
+            list-style: none;
+            padding: 0;
+        }
+        #nav li{
+            width: 150px;
+            height: 50px;
+            float: left;
+            background: pink;
+            text-align: center;
+            line-height: 50px;
+        }
+        .clear{
+            clear: both;
+        }
+    </style>
+</head>
+<body>
+    <div id="nav">
+        <ul>
+            <li>首页</li>
+            <li>新闻</li>
+            <li>娱乐</li>
+            <li>首页</li>
+            <li>娱乐</li>
+            <li>首页</li>
+        </ul>
+    </div>
+    <div id="main"></div>
+    <div class="clear"></div>
+</body>
+</html>

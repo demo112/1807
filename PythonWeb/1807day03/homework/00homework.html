@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>teacher</title>
+    <style>
+        #first{width: 60px}
+    </style>
+</head>
+<body>
+    <h1>增加管理员</h1>
+    <form action="" method="get">
+        <table>
+            <tr>
+                <td>姓名：</td>
+                <td>
+                    <input type="text" name="user_name" maxlength="10">
+                </td>
+                <td>10个字符以内</td>
+            </tr>
+            <tr>
+                <td>密码：</td>
+                <td>
+                    <input type="password" name="user_pass" maxlength="10">
+                </td>
+                <td>10个字符以内</td>
+            </tr>
+            <tr>
+                <td>性别：</td>
+                <td>
+                    <input type="radio" name="gender" value="female">女士
+                    <input type="radio" name="gender" value="male">男士
+                </td>
+                <td></td>
+            </tr>
+            <tr>
+                <!--这一行也可以使用合并效果-->
+                <td>角色：</td>
+                <td>
+                    <input type="checkbox" name="admit" value="super">超级管理员
+                    <br>
+                    <input type="checkbox" name="admit" value="bill">账单管理员
+                </td>
+                <td>至少选择一个角色</td>
+            </tr>
+            <tr>
+                <td>头像：</td>
+                <td>
+                    <input type="file" name="uimg">
+                </td>
+                <td></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td>
+                    <input type="submit" value="保存">
+                    <!--<input type="bottom" value="保存">-->
+                    <input type="reset">
+                </td>
+                <td></td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>

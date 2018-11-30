@@ -1,0 +1,110 @@
+/*清除浏览器样式*/
+body, h2, p{
+    margin: 0;
+}
+
+
+/*由外向内添加样式*/
+#container{
+	width:990px;
+	margin:0 auto;
+}
+
+/*顶部模块*/
+#container>h2{
+    font-weight: normal;
+    color: #b2b2b2;
+
+    border-bottom: 1px solid #d3d3d3;
+    padding-bottom: 20px;
+    margin-bottom: 35px;
+    padding-top: 50px;
+    padding-left: 50px;
+}
+
+/*左右两列布局*/
+#regist>p{
+    float: left;
+    position: relative;
+}
+#regist>p>a{
+    /*位置*/
+    position: absolute;
+    bottom: 20px;
+    left: 180px;
+    /*边框*/
+    width: 145px;
+    height: 45px;
+    border: 1px solid #85b55c;
+    /*文本*/
+    color: #85b55c;
+    text-align: center;
+    line-height: 45px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+#regist>form{
+    float: right;
+    margin-right: 45px;
+    margin-top: 70px;
+}
+.form-line{
+    /*子元素都浮动，父元素高度为0，外边距显示一场，手动给父元素添加高度*/
+    height: 45px;
+    margin-top: 20px;
+}
+.form-line>p{
+    /*文本*/
+    color: #a7a9a9;
+    /*位置*/
+    float: left;
+    /*大小*/
+    width: 96px;
+    height: 45px;
+    text-align: center;
+    line-height: 45px;
+    margin-right: 40px;
+}
+.form-line>div{
+    width: 300px;
+    float: left;
+}
+.form-line label{
+    color: #a7a9a9;
+}
+.form-control{
+    box-sizing: border-box;
+    height: 45px;
+    width: 288px;
+
+    border: 1px solid #e3e3e3;
+    outline: none;
+    padding: 0 20px;
+    font-size: 9px;
+}
+.forgetpwd{
+    float: right;
+}
+.forgetpwd>a{
+    color: #a7a9a9;
+}
+.isSave{
+    width: 16px;
+    height: 16px;
+    vertical-align: middle;
+}
+.btn{
+    width: 145px;
+    height: 40px;
+    border: 1px solid #64a131;
+    background-color: #729f43;
+    color: #fff;
+    border-radius: 5px;
+    font-size: 24px;
+    margin-right: 10px;
+}
+.regist-button{
+    background-color: #fff;
+    margin-right: 0;
+    color: #000;
+}

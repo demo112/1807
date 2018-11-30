@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>外边距</title>
+    <style>
+        /*首先清除默认设置，养成习惯*/
+        body, h1, h2, h3, h4, h5, h6, p, ul, ol{margin: 0; background-color: #ff5568}
+        h1{
+            margin: 20px 10px;
+            background-color: greenyellow;
+        }
+        p{margin: 50px 10px 20px;}
+        /*input{margin: 0 -10px 0 10px}*/
+        input{margin: 20px 20px 20px 10px}
+        div{
+            margin: 0 auto;
+            width: 300px;
+            height: 300px;
+            background-color: red;
+            /*border-top: 1px solid rgba(0, 0, 0, 0);*/
+            padding-top: 0.1px;
+        }
+        h2{
+            margin: -10px;
+        }
+    </style>
+</head>
+    <!--具有默认外边距的块元素-->
+<body>
+    <h2>二级标题</h2>
+    <h1>一级标题</h1>
+    <p>段落标签</p>
+    <ul>
+        <!--无序列表-->
+        <li>今天星期四</li>
+    </ul>
+    <ol>
+        <!--有序列表-->
+        <li>明天星期五</li>
+    </ol>
+    <table>
+        <tr>
+            <td>后天星期六</td>
+        </tr>
+    </table>
+    <form>
+        <input type="text" name="" value="">
+        <input type="submit">
+    </form>
+    <div>
+        <h1>div元素中的h1</h1>
+    </div>
+</body>
+</html>

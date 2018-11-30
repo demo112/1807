@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>后代选择器</title>
+    <style>
+        div span{color: red;}
+        div>span{background-color: green; font-size: 24px;}
+    </style>
+</head>
+<body>
+    <b>div-->b</b>
+    <div>
+        <span>div-->span</span>
+        <p>
+            你好<span>div-->p-->span</span>再见
+        </p>
+    </div>
+
+</body>
+</html>

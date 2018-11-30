@@ -1,0 +1,36 @@
+内链接 inner join
+select sheng.s_name, city.c_name from sheng
+inner join city
+on sheng.s_id = city.cfather_id;
+
++-----------+--------------+
+| s_name    | c_name       |
++-----------+--------------+
+| 河北省     | 石家庄市       |
+| 河北省     | 沧州市         |
+| 河北省     | 廊坊市         |
+| 陕西省     | 西安市         |
+| 四川省     | 成都市         |
+| 四川省     | 重庆市         |
+| 广东省     |  广州市        |
+| 山东省    | 济南市       |
+| 湖北省    | 武汉市       |
+| 河南省    | 郑州市       |
++-----------+--------------+
+10 rows in set (0.00 sec)
+
+
+select sheng.s_name, city.c_name, xian.x_name from sheng
+inner join city
+on sheng.s_id = city.cfather_id 
+inner join xian
+on city.c_id = xian.xfather_id;
+
++-----------+--------------+-----------+
+| s_name    | c_name       | x_name    |
++-----------+--------------+-----------+
+| 河北省     | 石家庄市       | 正定县     |
+| 湖北省     | 武汉市         | 武昌区     |
++-----------+--------------+-----------+
+2 rows in set (0.00 sec)
+

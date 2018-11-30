@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>review</title>
+</head>
+<body>
+    <!--/Users/cooper/Library/Mobile Documents/com~apple~CloudDocs/AID/共享文件夹/1807/PythonWeb/1807day03/00review.html-->
+    <!--/Users/cooper/Library/Mobile\ Documents/com\~apple\~CloudDocs/NiceDeskPaper/Photo\ by\ Andreas\ NextVoyagePL\ \(oEH7uWdab5w\).jpg-->
+    <img src="../../前端课程资料/img-css/wxy.jpeg"
+         title="创造101"
+         width="200"
+         alt="吴宣仪">
+    <br>
+
+    <a href="">跳转文本</a>
+    <!--#作为本页的锚点，使用其他字符可以做本页的跳转-->
+    <a href="#">跳转至本页</a>
+    <br>
+    <a href="#6">锚点点击位置</a>
+
+    <a href="">
+        <img src="">
+    </a>
+    <br>
+
+    <table border="1px" width="300px" height="300px">
+        <tr>
+            <!--<th>等价于td，一般用于首航单元格，自带加粗和居中效果</th>-->
+            <th>姓名</th>
+            <th>年龄</th>
+            <th>性别</th>
+        </tr>
+        <tr>
+           <td>杨幂</td>
+           <td>30</td>
+           <td>女</td>
+        </tr>
+    </table>
+    <br>
+    <!--完整表格结构-->
+    <table>
+        <thead></thead>
+        <tfoot></tfoot>
+        <tbody></tbody>
+    </table>
+    <br>
+
+    <form action="地址" method="get" >
+        <!--表单控件-->
+        用户名<input type="texy" name="user_name" maxlength="8"
+                  placeholder="提示文本" value="默认填充文本">
+        密码<input type="password" name="upwd">
+        <br>
+        <!--单选按钮-->
+        男<input type="radio" name="gender" value="male" checked>
+        女<input type="radio" name="gender" value="female">
+        <br>
+        <!--特殊用法-->
+        <!--按钮id值就绑定label控件文字，扩大点击范围-->
+        <label for="male">男</label>
+        <input type="radio" name="gender" value="male" id="male">
+        <label for="female">女</label>
+        <input type="radio" name="gender" value="male" id="female">
+        <!--复选框-->
+        <input type="checkbox" name="fuxuan" value="1">
+        <input type="checkbox" name="fuxuan" value="2">
+        <input type="checkbox" name="fuxuan" value="3">
+        <input type="checkbox" name="fuxuan" value="4">
+        <!--隐藏域-->
+        <input type="hidden" name="XXX" value="XX">
+        <!--文件选择框-->
+        <input type="file" name="XXX" value="XX">
+    </form>
+
+    <a href="6">锚点目标位置</a>
+</body>
+</html>

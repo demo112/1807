@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>盒模型尺寸</title>
+    <style>
+        div{
+            width: 300px;
+            height: 100px;
+            background-color: rebeccapurple;
+        }
+        a{
+            width: 10px;
+            height: 50px;
+            margin: 5px 10px;
+            background-color: #ff5568;
+            /*转换元素类型为行内块元素*/
+            display: inline-block;
+        }
+        h1{
+            /*字符有继承性，需要在子元素中重新设置文本大小，这种方法要谨慎*/
+            font-size: 0;
+            width: 300px;
+            height: 100px;
+            background-color: pink;
+        }
+        span{
+            display: inline-block;
+            width: 100px;
+            height: 50px;
+            font-size: 14px;
+            background-color: rgba(0, 0, 255, .3);
+
+            box-sizing: border-box;
+            padding: 5px;
+            border: 3px solid red;
+            margin: 5px;
+        }
+
+    </style>
+</head>
+<body>
+    <div>
+        <a href="#">baidu</a><a href="#">baidu</a><a href="#">baidu</a>
+    </div>
+    <h1>
+        <span>border-box</span>
+        <span>border-box</span>
+        <span>border-box</span>
+    </h1>
+</body>
+</html>

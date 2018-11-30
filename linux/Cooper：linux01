@@ -1,0 +1,511 @@
+drwxrwxrwx 10 tarena tarena      4096 6月   4 18:06 AID1804
+文件权限　　　　　　　　　　属主　　属组　　　　　　　　文件大小　　修改时间　　　文件名
+
+
+文件与目录相关命令
+ls -a 显隐藏的文件和文件夹　　.abc
+
+cd #键入到文件夹
+cd /   #进入到根目录
+cd     #　返回到用户目录
+cd ..  # 返回上一级文件夹
+cd ~   # 返回到用户主目录　　＃等同于　cd
+
+
+mkdir  作用：创建一个或多个文件夹
+　　　　　　　示例:　　mkdir mydir1 mydir2
+rmdir  删除一个或多个文件夹
+#  文件夹内必须为空
+
+
+文件命令
+
+touch 命令：
+作用：
+１．如果文件不存在，创建一个空文件
+２．如果文件或目录已存在，则用系统更新他的修改时间
+格式：
+touch 文件名
+示例：　touch newfile
+
+rm　命令：
+    作用：删除文件夹或文件
+    常用选项：
+    -r 递归删除文件夹内部的文件或文件夹
+    -i 删除前给出提示（y yes n no ）
+    -f　强制删除，不给提示
+
+Linux路径：
+    根（root） /
+    （一个路径的起点）
+    路径分两种
+        绝对路径
+        以＂/＂字符开头的路径为绝对路径
+        相对路径
+        不以＂/＂字符开头的路径为相对路径
+        开始符号：
+            文件／文件夹名称
+        ．当前文件夹（目录）　 　#  ./day01.txt
+        ．．上一级文件夹      #  cd ../../　向上两级　　　cd ../　向上一级
+        ～用户主目录（家目录）
+        day01 　　　　　　　　　　　　　# 直接当前级文件或文件夹路径
+联系：
+１．在用户主目录下　创建目录＂计算机＂
+２．在＂计算机＂下创建四个目录：＂软件＂，＂游戏＂，＂程序＂，＂学习＂
+３．在＂学习＂文件夹下创建三个文件：＂python.txt＂,"AI.txt", "ai.txt"
+４．删除＂学习＂目录中的"AI.txt"
+５．删除＂游戏＂这个文件夹
+
+答案：
+cd    #进入到用户主目录
+mkdir 计算机
+cd　计算机
+mkdir 软件 游戏 程序 学习
+cd　学习
+touch python.txt AI.txt ai.txt
+rm AI.txt
+        ##tarena@tedu:~/计算机/学习$ tree ../
+rmdir 游戏
+
+
+tree命令
+左右：显示一个文件夹的结构
+格式：tree[文件夹］
+
+help帮助选项：
+    格式
+        命令名 --help
+        例：ls --help
+    作用：查看命令的帮助
+
+man命令帮助
+    格式
+        man 命令
+        例：
+    作用：查看命令的帮助
+
+
+
+文件管理命令
+cp　命令：copy
+    作用：复制文件或文件夹
+    格式cp［选项］源文件虎文件夹　目标文件或文件夹
+    示例：或
+        cp a.txt ~/b.txt
+        cp a.txt ../b.txt  # 复制到上一级
+        cp -a /home/tarena/aid1807  ~/
+    常用选项：
+    -a 可以复制文件夹及其内部全部内容
+
+mv命令：move
+    作用：文件搬移或更名
+    格式：mv 源文件
+    示例：mv a.txt ~/b.txt　＃把a移动到主目录下为b
+    更名：mv a.txt b.txt
+
+find命令：
+    作用：根据文件名等信息查找文件的位置（路径）
+    格式：find 路径　-name ＇文件名＇
+    示例：
+        find  /etc -name 'passwd'  #在etc文件夹下找passwd这个文件　如果找到就列出来．
+        find  / -name 'passwd'  #在根文件夹下找passwd这个文件　如果找到就列出来．
+
+通配符：
+* 代表０个１个或几个字符
+?　代表一个任意字符
+
+ls a* #显示a开头的
+
+ls *c　#显示c结尾的
+
+ls a*c # 显示a开头c结尾的
+ls a?  # 显示a开头2个字符的文件
+ls ?? # 显示所 ２个字符的文件
+
+Ctrl+ C 强制中止终端内正在运行程序
+
+grep命令：
+    作用：
+        查找文件中相应的内容，及文本信息
+    格式：
+        grep ＂内容＂　［选项］文件名或路径
+    常用选项：
+    -n 显示行号
+    -r 递归搜索文件夹中的文件
+    示例：
+    grep "1000"　-r *
+    grep "1000"　-nr /etc
+数据管理命令：
+    压缩：
+    gzip命令：
+        作用：
+            用zip压缩算法对文件进行压缩，生成压缩厚的.gz文件
+        格式：
+            gzip 文件名
+
+    gunzip命令：
+        作用：
+            对zip压缩的文件进行解压缩
+        格式：
+            gunzip 文件名
+        示例：
+            cd ~
+            cp
+         aid1807/Linux/day01.txt mynote.txt
+         gzip mynote.txt   #将mynote.txt压缩为mynote.txt.gz
+         gunzip mynote.txt #将mynote.txt.gz解压缩为mynote.txt
+
+
+
+打包和解包命令
+tar命令：
+    作用：
+        对文件或文件夹进行打包和解包操作
+    格式：
+        tar [选项]　文件名　［文件名或路径］
+    常用选项：
+        -c              创建包
+        -x　             解包
+        -f　文件名      　　操作的文件名
+        -v              显示操作的文件细节
+        -z              用gzip和gunzip对包进行压缩和解压缩
+    示例：
+        cd aid1807
+        tar -czvf Linux.tar.gz linux  #将linux文件夹打包并压缩为.gz文件
+        tar -xzvf Linux.tar.gz linux  #将linux文件夹解压缩文件
+sublime 文本编辑器
+    作用：
+    编辑纯文本文件
+    启动命令：
+
+    subl <回车>
+    subl 文件名＜回车＞
+    快捷键：
+        1打开隐藏侧边栏:
+            view-->Side bar ->Show/hide Side bar
+            ctrl + k b
+        2字体放大缩小:
+            ctrl + +
+            ctrl + -
+        3创建和取消多个光标:
+            ctrl + 鼠标左键单击 
+            按esc键
+        4批量多选相同的块:
+            ctrl + d
+        5注释／取消注释:
+            ctrl + /
+        6交替换行:
+            ctrl + shift + 上下键
+        7保存文件:
+            ctrl + s
+	8选中后每行创建图标
+		Ctrl + shift + L
+
+
+练习
+１．目录主文件夹下创建aid1807
+２．在aid1807下创建linux / pbase
+３．在pbase下创建３个文件夹
+day01
+day02
+day03
+４．在day01文件夹下创建文件
+day01.txt
+５．把aid1807文件夹打包为aid1807.tar.gz
+６．将aid1807.tar.gz复制到window下　然后解压缩到桌面
+
+
+
+＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿＿　
+day01.txt
+
+姓名: 魏明择
+EMail: weimz@tedu.cn
+
+现代三大操作系统:
+  Unix(IOS/Mac OS X, AIX, Solaris)
+  Windows
+  Linux(用来学习的操作系统)
+     Ubuntu
+     Redhat
+     Android(安卓)
+  
+计算机组成结构:
+  硬件:
+  软件:
+    操作系统软件:
+        Windows, Linux, Unix
+    应用软件:
+        QQ, 微信, python3 
+
+
+打开终端:
+  点击图标
+
+退出终端:
+  $ exit
+  ctrl + d
+
+Linux 命令:
+  格式:
+    命令名 [选项]  [参数]
+
+文件和目录相关的命令:
+  pwd 命令
+    作用:
+      用于显示当前操作的路径(当前工作文件夹)
+
+  ls 命令:
+    作用:
+      显示指定目录的文件或文件夹
+    常用选项:
+      -l 列表显示文件 的详细信息
+      -a 显示全部文件 /文件夹
+    示例:
+    # ls -l core
+-rw------- 1 tarena tarena 5943296 7月25 14:37 core
+   ^            ^    ^      ^          ^
+   文件权限     属主  属组 文件大小(字节) 修改时间 文件名
+
+  cd 命令
+    作用:
+      改变当前的工作目录(进入某个文件夹)
+    格式:
+      cd 目录名
+    示例:
+      cd /home/tarena   # 进入到/home/tarena文件夹
+      cd /   # 进入到 根目录下 /
+      cd     # 返回到用户主目录
+      cd ..  # 返回上一级文件夹
+      cd ~   # 返回到用户主目录 # 等同于: cd 
+  mkdir 命令:
+    作用:
+      创建一个或多个文件夹
+
+  rmdir 命令:
+    作用:
+      删除一个或多个文件夹
+    说明:
+      文件夹内必须为空才可以用rmdir删除
+  示例:
+    mkdir mydir1 mydir2
+    rmdir mydir1 mydir2
+
+touch 命令:
+  作用:
+    1. 如果文件不存在,则创建一个空文件
+    2. 如果文件或目录已存在,则用系统时间更新它的修改时间
+  格式:
+    touch 文件名
+  示例:
+    touch newfile
+
+rm 命令:
+  作用:
+    删除文件或文件夹
+  常用选项:
+    -r 递归删除文件夹内部的文件或文件夹
+    -i 删除前给出提示(y代表yes,n代表no)
+    -f 强制删除,不给出任何提示
+  示例:
+    rm newfile
+    
+Linux 下的路径:
+  根(root)  /
+    (一个路径的起点)
+  路径分为两种:
+    绝对路径
+      以'/'字符开头的路径为绝对路径
+    相对路径
+      不以'/'字符开头的路径为相对路径
+      开始符号:
+        文件/文件夹名称
+        . 当前文件夹(目录)
+        .. 上一级文件夹(目录)
+        ~ 用户主目录(家目录)
+练习:
+  1. 在用户主目录下 创建目录: "计算机"
+  2. 在 "计算机" 下创建四个目录: "软件","游戏","程序","学习"
+  3. 在"学习" 目录创建三个文件 : "python.txt", "AI.txt", "ai.txt"
+  4. 删除"学习" 目录中的'AI.txt'
+  5. 删除"游戏" 这个文件夹
+
+答案:
+  cd ~  # 进入到用户主目录
+  mkdir 计算机
+  cd 计算机
+  mkdir 软件 游戏 程序 学习
+  cd 学习
+  rm AI.txt
+  rmdir ../游戏
+
+
+tree 命令
+  作用:
+    显示一个文件夹的结构
+  格式:
+    tree [文件夹]
+
+help 帮助选项:
+  格式
+    命令名 --help
+  例:
+    ls --help
+
+man 命令帮助:
+  格式:
+    man linux/Unix 命令
+  作用:
+    查看命令所对应的帮助文档(手册)
+  退出:
+    q键退出
+  示例:
+    man ls
+
+通配符:
+  *  代表0个,1个或多个任意字符
+  ?  代表一个任意字符
+
+示例:
+  touch a ab ac abc aabb bc cd
+  ls a*c
+  rm a*b
+  ls a*
+  ls a?
+  ls ??  # 显示只有两个字符构成的文件
+
+文件管理命令:
+cp 命令: copy
+  作用:
+    复制文件或文件夹
+  格式:
+    cp [选项] 源文件或文件夹 目标文件或文件夹
+  示例:
+    cp a.txt ~/b.txt
+    cp -a /home/tarena/aid1807  ~/
+  常用选项:
+    -a 可以复制文件夹及其内部的全部内容
+
+mv 命令: move
+  作用:
+    文件搬移或更名
+  格式:
+    mv 源文件或文件夹 目标文件或文件夹
+  示例:
+    mv a.txt b.txt
+    mv a.txt /home/tarena/
+
+
+find 命令:
+  作用:
+    根据文件名等信息查找指定的文件的位置(路径)
+  格式:
+    find 路径 -name '文件名'
+  示例:
+    # 查找文件 passwd
+    find /etc -name 'passwd'  # 在/etc文件夹下查找有没有 passwd 这个文件.如果找到则列出来
+
+ctrl + c 终止终端内正在运行的程序
+
+
+
+grep 命令:
+  作用:
+    查找文件中相应的内容及文本信息
+  格式:
+    grep "内容" [选项] 文件名或路径
+  常用选项:
+    -n   显示行号
+    -r   递归搜索文件夹内的文件
+
+
+
+
+文件管理命令:
+  gzip 命令:
+    作用:
+      用zip压缩算法对文件进行压缩,生成压缩后的.gz文件
+    格式:
+      gzip 文件名
+
+  gunzip 命令:
+    作用:
+      对用zip压缩的.gz文件进行解压缩
+    格式:
+      gunzip 文件名
+  示例:
+    cd ~
+    cp aid1807/linux/day01.txt mynote.txt
+    gzip mynote.txt  # 将mynote.txt压缩为 mynote.txt.gz
+    gunzip mynote.txt.gz # 将mynote.txt.gz 解压缩
+
+打包的解包的命令:
+tar 命令:
+  作用:
+    对文件或文件夹进行打包和解包操作
+  格式:
+    tar [选项] 文件名 [文件名或路径]
+  常用选项:
+    -c         创建包
+    -x         解包
+    -f 文件名   操作的文件名　　　　　　f一定要在最后
+    -v         显示操作的文件细节
+    -z         用gzip或gunzip对包进行压缩和解压缩
+  示例:
+    cd aid1807
+    tar -czvf linux.tar.gz linux  # 将linux文件夹打印并压缩为.gz文件
+    tar -xzvf linux.tar.gz # 将linux.tar.gz 解包
+
+
+sublime 文本编辑器
+  作用:
+    编写纯文本文件
+  启动命令:
+    subl<回车>
+    subl 文件名<回车>
+
+sublime 快捷键:
+  1. 打开和隐藏侧边栏
+      view-->Side Bar -> Show/Hide Side Bar
+    快捷键
+      ctrl + k b
+  2. 字体放大缩小:
+      ctrl + - 缩小
+      ctrl + + 放大
+
+  3. sublime 创建和取消多个光标:
+      创建多个光标:  ctrl + 鼠标左键单击
+      取消多个光标:  按esc键
+  4. 批量多选相同的块
+     ctrl + d
+  5. 注释/取消注释
+     ctrl + /
+  6. 交替换行:　　
+    ctrl + shift + 上下键
+  7. 保存文件(重要)
+    ctrl + s
+
+
+练习:
+  1. 在用户主目录下创建文件夹aid1807
+  2. 在aid1807下创建两个文件夹:
+      linux
+      pbase
+  3. 在pbase文件下创建三个文件夹:
+      day01
+      day02
+      day03
+  4. 在day01下创建文件:
+      day01.txt
+  5. 把aid1807文件夹打包为aid1807.tar.gz
+  6. 将aid1807.tar.gz 复制到window下,然后解压缩到桌面
+  
+tarena@tedu:~$ cd
+tarena@tedu:~$ mkdir aid1807
+tarena@tedu:~$ mkdir aid1807/pbase/day01 aid1807/pbase/day02 aid1807/pbase/day03
+tarena@tedu:~$ touch aid1807/pbase/day01/day01.txt
+tarena@tedu:~$ tar -cvzf aid1807.tar.gz　aid1807
+
+
+
+

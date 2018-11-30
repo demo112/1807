@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>下拉菜单模块</title>
+    <style>
+        #city{
+            list-style: none;
+            display: inline-block;
+        }
+        #city>ul{
+            display: none;
+        }
+        #city:hover>ul{
+            list-style: none;
+            padding-left: 0;
+            display: block;
+        }
+    </style>
+</head>
+<body>
+    <ul>
+        <li id="city">城市
+            <ul>
+                <li>
+                    <div class="city">北京</div>
+                    <div class="city">上海</div>
+                    <div class="city">广州</div>
+                    <div class="city">深圳</div>
+                </li>
+            </ul>
+        </li>
+    </ul>
+</body>
+</html>

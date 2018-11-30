@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <form action="login.php" method="get" >
+        <!--文本框和密码框-->
+        <p>
+            用户姓名:
+            <input type="text" name="username"
+                   placeholder="输入用户名" maxlength="8">
+        </p>
+        <p>
+            用户密码：
+            <input type="password" name="userpassword"
+                   value="123456" maxlength="8">
+        </p>
+        <!--单选钮和复选框-->
+        <p>
+            用户性别：
+            <input type="radio" name="gender" value="male" checked>男
+            <input type="radio" name="gender" value="female">女
+        </p>
+        <p>
+            用户爱好：
+            <input type="checkbox" name="hobby" value="smoke">抽烟
+            <input type="checkbox" name="hobby" value="drink">喝酒
+            <input type="checkbox" name="hobby" value="perm">烫头
+            <input type="checkbox" name="hobby" value="study">学习
+        </p>
+        <!--隐藏域和文件选择框-->
+        <p>
+            <input type="hidden" name="uid" value="00001">
+            用户头像：<input type="file" name="u_img">
+        </p>
+        <!--提交按钮-->
+        <p>
+            <input type="submit">
+        </p>
+        <!--&lt;!&ndash;http://localhost:63343/PythonWeb/1807day02/login.php?&ndash;&gt;-->
+        <!--username=zhangsan-->
+        <!--&userpassword=000000-->
+        <!--&gender=male-->
+        <!--&hobby=smoke-->
+        <!--&hobby=drink-->
+        <!--&hobby=perm-->
+        <!--&uid=00001-->
+        <!--&u_img=Photo+by+Claudia+van+Zyl+%28Jv0jvGd_Sz0%29.jpg-->
+
+    </form>
+</body>
+</html>

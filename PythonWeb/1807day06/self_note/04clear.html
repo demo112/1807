@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>清除浮动影响</title>
+    <style>
+        div{
+            width: 200px;
+            height: 200px;
+        }
+        #d1{
+            background-color: red;
+            float: left;
+        }
+        #d3{
+            background-color: green;
+            float: right;
+        }
+        #d2{
+            width: 100%;
+            background-color: blue;
+            clear: both;
+        }
+    </style>
+</head>
+<body>
+    <div id="d1" class=""></div>
+    <div id="d2" class=""></div>
+    <div id="d3" class=""></div>
+</body>
+</html>

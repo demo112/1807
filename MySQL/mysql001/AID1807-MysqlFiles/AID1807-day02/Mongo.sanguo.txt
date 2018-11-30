@@ -1,0 +1,6 @@
+﻿db.sanguo.insert({name:'诸葛亮',wuli:120,fangyu:20,sex:'男',country:'蜀国'})
+db.sanguo.insert({name:'司马懿',wuli:119,fangyu:25,sex:'男',country:'魏国'})
+db.sanguo.insert({name:'关羽',wuli:188,fangyu:60,sex:'男',country:'蜀国'})
+db.sanguo.insert({name:'赵云',wuli:200,fangyu:66,sex:'男',country:'魏国'})
+db.sanguo.insert({name:'孙权',wuli:110,fangyu:20,sex:'男',country:'吴国'})
+db.sanguo.insert({name:'貂蝉',wuli:666,fangyu:10,sex:'女',country:'魏国'})

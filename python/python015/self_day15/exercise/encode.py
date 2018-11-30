@@ -1,0 +1,8 @@
+s = str(input('请输入一段字符串'))
+b =  s.encode('utf-8')
+print(b)
+print(len(b))
+print(len(s))
+s2 = b.decode()
+print(s + '\n' + s2)
+print(s == s2)

@@ -1,0 +1,24 @@
+外链接—左链接 left join
+select sheng.s_name, city.c_name, xian.x_name from sheng
+left join city
+on sheng.s_id = city.cfather_id 
+left join xian
+on city.c_id = xian.xfather_id;
+全部显示省，全部显示符合省条件的市
++-----------+--------------+-----------+
+| s_name    | c_name       | x_name    |
++-----------+--------------+-----------+
+| 河北省    | 石家庄市     | 正定县    |
+| 湖北省    | 武汉市       | 武昌区    |
+| 河北省    | 沧州市       | NULL      |
+| 河北省    | 廊坊市       | NULL      |
+| 陕西省    | 西安市       | NULL      |
+| 四川省    | 成都市       | NULL      |
+| 四川省    | 重庆市       | NULL      |
+| 广东省    | 广州市       | NULL      |
+| 山东省    | 济南市       | NULL      |
+| 河南省    | 郑州市       | NULL      |
+| 海南省    | NULL         | NULL      |
+| 云南省    | NULL         | NULL      |
+| 山西省    | NULL         | NULL      |
++-----------+--------------+-----------+
