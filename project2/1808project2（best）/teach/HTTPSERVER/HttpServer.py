@@ -58,7 +58,7 @@ class HTTPServer(object):
     # 启动服务器
     def serve_forever(self):
         self.sockfd.listen(10)
-        print("Listen the port %d..."%self.port)
+        print("Listen the port %d..." % self.port)
         while True:
             # """循环接收"""
             connfd,addr = self.sockfd.accept()
@@ -104,11 +104,11 @@ class HTTPServer(object):
             response_headlers+='\r\n'
             response_body = response
 
-        response=response_headlers+response_body
+        response = response_headlers + response_body
         connfd.send(response.encode())
         connfd.close()
 
-if __name__=="__main__":
+
+if __name__ == "__main__":
     httpd = HTTPServer(ADDR)
     httpd.serve_forever()   # 启动ＨＴＴＰ服务
-
