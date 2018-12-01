@@ -1,23 +1,26 @@
-#coding=utf-8
-'''
+# coding=utf-8
+
+"""
 aid httpsrver v3.0
-'''
+"""
 
-from socket import *
-import sys 
-from threading import Thread 
-#导入配置文件
-from settings import *
+
 import re
-import time 
+import time
+from socket import *
+# import sys
+from threading import Thread
+# 导入配置文件
+from settings import *
 
-#和WebFrame通信
-def connect_frame(METHOD,PATH_INFO):
+
+# 和WebFrame通信
+def connect_frame(METHOD, PATH_INFO):
     s = socket()
     try:
         s.connect(frame_address) #连接框架服务器地址
     except Exception as e:
-        print("Connect error",e)
+        print("Connect error", e)
         return
     s.send(METHOD.encode())
     time.sleep(0.1)
@@ -43,6 +46,11 @@ class HTTPServer(object):
 
     #绑定地址
     def bind(self,address):
+        """
+        单独列出方法的目的是
+        为了给用户一定的自由度：
+        通过调用bind方法来创建链接
+        """
         self.ip = address[0]
         self.port = address[1]
         self.sockfd.bind(address)
@@ -52,6 +60,7 @@ class HTTPServer(object):
         self.sockfd.listen(10)
         print("Listen the port %d..."%self.port)
         while True:
+            # """循环接收"""
             connfd,addr = self.sockfd.accept()
             print("Connect from",addr)
             handle_client = Thread(target=self.handle,\
