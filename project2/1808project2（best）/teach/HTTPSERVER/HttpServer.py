@@ -31,21 +31,21 @@ def connect_frame(METHOD, PATH_INFO):
     s.close()
     return response 
     
-#封装httpserver类
+# 封装httpserver类
 class HTTPServer(object):
-    def __init__(self,address):
+    def __init__(self, address):
         self.address = address 
         self.create_socket()
         self.bind(address)
 
-    #创建套接字
+    # 创建套接字
     def create_socket(self):
         self.sockfd = socket()
         self.sockfd.setsockopt(\
         SOL_SOCKET,SO_REUSEADDR,1)
 
-    #绑定地址
-    def bind(self,address):
+    # 绑定地址
+    def bind(self, address):
         """
         单独列出方法的目的是
         为了给用户一定的自由度：
@@ -55,7 +55,7 @@ class HTTPServer(object):
         self.port = address[1]
         self.sockfd.bind(address)
     
-    #启动服务器
+    # 启动服务器
     def serve_forever(self):
         self.sockfd.listen(10)
         print("Listen the port %d..."%self.port)
@@ -68,9 +68,9 @@ class HTTPServer(object):
             handle_client.setDaemon(True)
             handle_client.start()
     
-    #处理具体的客户端请求
+    # 处理具体的客户端请求
     def handle(self,connfd):
-        #接收浏览器发来的http请求
+        # 接收浏览器发来的http请求
         request = connfd.recv(4096)
         if not request:
             connfd.close()
@@ -110,5 +110,5 @@ class HTTPServer(object):
 
 if __name__=="__main__":
     httpd = HTTPServer(ADDR)
-    httpd.serve_forever() #启动ＨＴＴＰ服务
+    httpd.serve_forever()   # 启动ＨＴＴＰ服务
 
