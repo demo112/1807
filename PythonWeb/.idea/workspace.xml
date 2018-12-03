@@ -197,7 +197,7 @@
   <component name="ProjectFrameBounds">
     <option name="y" value="23" />
     <option name="width" value="720" />
-    <option name="height" value="804" />
+    <option name="height" value="797" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -337,19 +337,19 @@
     </option>
   </component>
   <component name="RunManager" selected="JavaScript Debug.02padding.html">
-    <configuration name="01.img.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63343/PythonWeb/1807day02/01.img.html">
+    <configuration name="01.img.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63343/PythonWeb/1807day02/01.img.html">
       <method v="2" />
     </configuration>
-    <configuration name="02.anchor.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63343/PythonWeb/1807day02/02.anchor.html">
+    <configuration name="02.anchor.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63343/PythonWeb/1807day02/02.anchor.html">
       <method v="2" />
     </configuration>
-    <configuration name="02padding.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/PythonWeb/1807day05/self_note/02padding.html">
+    <configuration name="02padding.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/PythonWeb/1807day05/self_note/02padding.html">
       <method v="2" />
     </configuration>
-    <configuration name="03.anchor2.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63343/PythonWeb/1807day02/03.anchor2.html">
+    <configuration name="03.anchor2.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63343/PythonWeb/1807day02/03.anchor2.html">
       <method v="2" />
     </configuration>
-    <configuration name="homework.html" type="JavascriptDebugType" factoryName="JavaScript Debug" nameIsGenerated="true" uri="http://localhost:63342/PythonWeb/1807day03/homework/homework.html">
+    <configuration name="homework.html" type="JavascriptDebugType" nameIsGenerated="true" uri="http://localhost:63342/PythonWeb/1807day03/homework/homework.html">
       <method v="2" />
     </configuration>
     <list>
