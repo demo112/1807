@@ -41,8 +41,7 @@ class HTTPServer(object):
     # 创建套接字
     def create_socket(self):
         self.sockfd = socket()
-        self.sockfd.setsockopt(\
-        SOL_SOCKET,SO_REUSEADDR,1)
+        self.sockfd.setsockopt(SOL_SOCKET,SO_REUSEADDR,1)
 
     # 绑定地址
     def bind(self, address):
