@@ -1,0 +1,1459 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="6007a814-85c3-4bae-918e-49fa9143a452" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/PythonNet/day04/html1.0课后练习/HttpServer.html.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PythonNet/day04/html1.0课后练习/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dictionaries/cooper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dictionaries/cooper.xml" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/1807$HttpServer_html.coverage" NAME="HttpServer.html Coverage Results" MODIFIED="1544099045004" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PythonNet/day04/html1.0课后练习" />
+    <SUITE FILE_PATH="coverage/1807$sun_angle.coverage" NAME="sun_angle Coverage Results" MODIFIED="1543650797042" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/自用文件/自建函数" />
+    <SUITE FILE_PATH="coverage/1807$HttpServer.coverage" NAME="HttpServer Coverage Results" MODIFIED="1543646082177" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/project2/1808project2/teach/HTTPSERVER" />
+    <SUITE FILE_PATH="coverage/1807$insert_dbs.coverage" NAME="insert_dbs Coverage Results" MODIFIED="1543393075196" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/MongoDB/Mine" />
+    <SUITE FILE_PATH="coverage/1807$recv_file.coverage" NAME="recv_file Coverage Results" MODIFIED="1544015529198" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PythonNet/day03/课后练习" />
+    <SUITE FILE_PATH="coverage/1807$tcp_client__1_.coverage" NAME="tcp_client (1) Coverage Results" MODIFIED="1542966731844" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PythonNet/day01/teach_day1" />
+    <SUITE FILE_PATH="coverage/1807$a8c904a648c5d8f1a4036e60450ff1c931eef833a2f983dcf500127f52bdb7a5.coverage" NAME="a8c904a648c5d8f1a4036e60450ff1c931eef833a2f983dcf500127f52bdb7a5 Coverage Results" MODIFIED="1542464254021" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../../../../../Containers/net.xmind.vana.app/Data/Library/Application Support/XMind ZEN/vana/workbooks/0359788d4ea872fb96855ae873/resources" />
+    <SUITE FILE_PATH="coverage/1807$tcp_server.coverage" NAME="tcp_server Coverage Results" MODIFIED="1542966609107" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PythonNet/day01/teach_day1" />
+    <SUITE FILE_PATH="coverage/1807$WebFrame__1_.coverage" NAME="WebFrame (1) Coverage Results" MODIFIED="1543570490633" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/project2/P2:httpServer3.0/Httpserver_teach/WebFrame" />
+    <SUITE FILE_PATH="coverage/1807$send_file.coverage" NAME="send_file Coverage Results" MODIFIED="1544015525999" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PythonNet/day03/课后练习" />
+    <SUITE FILE_PATH="coverage/1807$13f6e78626b3fa3fbf0bbec8c0f9163365f2170147eeea9e76aed841fa5b2784.coverage" NAME="13f6e78626b3fa3fbf0bbec8c0f9163365f2170147eeea9e76aed841fa5b2784 Coverage Results" MODIFIED="1542462936438" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../../../../../Containers/net.xmind.vana.app/Data/Library/Application Support/XMind ZEN/vana/workbooks/0359788d4ea872fb96855ae873/resources" />
+    <SUITE FILE_PATH="coverage/1807$WebFrame.coverage" NAME="WebFrame Coverage Results" MODIFIED="1543570847420" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/project2/1809project2" />
+    <SUITE FILE_PATH="coverage/1807$tcpserver.coverage" NAME="tcpserver Coverage Results" MODIFIED="1542968797455" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PythonNet/day01/teach_day1/课后练习" />
+    <SUITE FILE_PATH="coverage/1807$x_o_referee.coverage" NAME="x-o-referee Coverage Results" MODIFIED="1543657952710" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/自用文件/自建函数" />
+    <SUITE FILE_PATH="coverage/1807$HTTPServer3_0.coverage" NAME="HTTPServer3.0 Coverage Results" MODIFIED="1543644798769" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/project2/1808project2" />
+    <SUITE FILE_PATH="coverage/1807$insert_dbs_many.coverage" NAME="insert_dbs_many Coverage Results" MODIFIED="1543389378155" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/MongoDB/Mine" />
+    <SUITE FILE_PATH="coverage/1807$re_regex_diff.coverage" NAME="re_regex_diff Coverage Results" MODIFIED="1543544216834" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/regex/project" />
+    <SUITE FILE_PATH="coverage/1807$tcpclient.coverage" NAME="tcpclient Coverage Results" MODIFIED="1542968808746" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PythonNet/day01/teach_day1/课后练习" />
+    <SUITE FILE_PATH="coverage/1807$find_dbs.coverage" NAME="find_dbs Coverage Results" MODIFIED="1543395324394" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/MongoDB/Mine" />
+    <SUITE FILE_PATH="coverage/1807$reduce.coverage" NAME="reduce Coverage Results" MODIFIED="1542452873732" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/自用文件/自建函数" />
+    <SUITE FILE_PATH="coverage/1807$grid_write.coverage" NAME="grid_write Coverage Results" MODIFIED="1543395487750" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/MongoDB/Mine" />
+    <SUITE FILE_PATH="coverage/1807$.coverage" NAME="中位数 Coverage Results" MODIFIED="1543929189248" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/自用文件/自建函数/数学" />
+    <SUITE FILE_PATH="coverage/1807$0f4d35250bc658af735a72d1bc8d19ab13a090ef4ef5b3f1b062797170e45b6e.coverage" NAME="0f4d35250bc658af735a72d1bc8d19ab13a090ef4ef5b3f1b062797170e45b6e Coverage Results" MODIFIED="1542462958109" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../../../../../Containers/net.xmind.vana.app/Data/Library/Application Support/XMind ZEN/vana/workbooks/0359788d4ea872fb96855ae873/resources" />
+    <SUITE FILE_PATH="coverage/1807$Caesar_cipher_decriptor.coverage" NAME="Caesar cipher decriptor Coverage Results" MODIFIED="1543748172193" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/自用文件/自建函数" />
+    <SUITE FILE_PATH="coverage/1807$all_the_same.coverage" NAME="all_the_same Coverage Results" MODIFIED="1543628220362" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/自用文件/自建函数" />
+    <SUITE FILE_PATH="coverage/1807$ID_check.coverage" NAME="ID_check Coverage Results" MODIFIED="1543543065378" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/regex/project" />
+    <SUITE FILE_PATH="coverage/1807$regex.coverage" NAME="regex Coverage Results" MODIFIED="1543546230762" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/regex/regexteach" />
+    <SUITE FILE_PATH="coverage/1807$tcpserver__1_.coverage" NAME="tcpserver (1) Coverage Results" MODIFIED="1543386108686" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PythonNet/day01/teach_day1/课后练习/while_recv_send" />
+    <SUITE FILE_PATH="coverage/1807$long_repeat.coverage" NAME="long_repeat Coverage Results" MODIFIED="1543581408220" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/自用文件/自建函数" />
+    <SUITE FILE_PATH="coverage/1807$insert_dbs_remove.coverage" NAME="insert_dbs_remove Coverage Results" MODIFIED="1543393147949" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/MongoDB/Mine" />
+    <SUITE FILE_PATH="coverage/1807$update.coverage" NAME="update Coverage Results" MODIFIED="1543392510491" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/MongoDB/Mine" />
+    <SUITE FILE_PATH="coverage/1807$Httpserver.coverage" NAME="Httpserver Coverage Results" MODIFIED="1543577485120" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/project2/1809project2" />
+    <SUITE FILE_PATH="coverage/1807$grid_read.coverage" NAME="grid_read Coverage Results" MODIFIED="1543395511760" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/MongoDB/Mine" />
+    <SUITE FILE_PATH="coverage/1807$09224f4a47b031e1db437564bebc2ccf295358806502501277d7784cd5ab3e43.coverage" NAME="09224f4a47b031e1db437564bebc2ccf295358806502501277d7784cd5ab3e43 Coverage Results" MODIFIED="1542462759916" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../../../../../Containers/net.xmind.vana.app/Data/Library/Application Support/XMind ZEN/vana/workbooks/0359788d4ea872fb96855ae873/resources" />
+    <SUITE FILE_PATH="coverage/1807$HttpServer__1_.coverage" NAME="HttpServer (1) Coverage Results" MODIFIED="1543646738324" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/project2/1808project2（best）/teach/HTTPSERVER" />
+    <SUITE FILE_PATH="coverage/1807$show_dbs.coverage" NAME="show_dbs Coverage Results" MODIFIED="1543395352472" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/MongoDB/Mine" />
+  </component>
+  <component name="CoverageViewManager">
+    <option name="myElementSize" value="234" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="1807" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/PythonNet/day04/html1.0课后练习/HttpServer.html.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="431">
+              <caret line="47" column="22" selection-start-line="47" selection-start-column="22" selection-end-line="47" selection-end-column="22" />
+              <folding>
+                <element signature="e#114#135#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>split</find>
+      <find>print('send all')</find>
+      <find>\r\n</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="PUSH_TAGS">
+      <GitPushTagMode />
+    </option>
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/PythonNet/day09/code/LineFtpServer/thead_server.py" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/PythonNet/day09/code/LineFtpServer/multiprocess_server.py" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/PythonNet/day01/teach_day1/课后练习/tcpclient.py" />
+        <option value="$PROJECT_DIR$/PythonNet/day01/teach_day1/课后练习/tcpserver.py" />
+        <option value="$PROJECT_DIR$/PythonNet/day01/teach_day1/课后练习/while_recv_send/tcpclient.py" />
+        <option value="$PROJECT_DIR$/PythonNet/day01/teach_day1/课后练习/while_recv_send/tcpserver.py" />
+        <option value="$PROJECT_DIR$/PythonNet/day02/课后练习/UDPcelint.py" />
+        <option value="$PROJECT_DIR$/PythonNet/day02/课后练习/UDPserver.py" />
+        <option value="$PROJECT_DIR$/MongoDB/Mine/show_dbs.py" />
+        <option value="$PROJECT_DIR$/MongoDB/Mine/find_dbs.py" />
+        <option value="$PROJECT_DIR$/MongoDB/Mine/insert_dbs_many.py" />
+        <option value="$PROJECT_DIR$/MongoDB/Mine/insert_dbs_remove.py" />
+        <option value="$PROJECT_DIR$/MongoDB/Mine/insert_dbs.py" />
+        <option value="$PROJECT_DIR$/MongoDB/Mine/update.py" />
+        <option value="$PROJECT_DIR$/MongoDB/Mine/remove.py" />
+        <option value="$PROJECT_DIR$/MongoDB/Mine/grid_write.py" />
+        <option value="$PROJECT_DIR$/MongoDB/Mine/grid_read.py" />
+        <option value="$PROJECT_DIR$/算法/二分法查找.py" />
+        <option value="$PROJECT_DIR$/算法/递归二分法.py" />
+        <option value="$PROJECT_DIR$/regex/regex.txt" />
+        <option value="$USER_HOME$/gittest/test.py" />
+        <option value="$PROJECT_DIR$/regex/project/ID_check.py" />
+        <option value="$PROJECT_DIR$/regex/project/re_regex_diff.py" />
+        <option value="$PROJECT_DIR$/regex/regexteach/regex.py" />
+        <option value="$PROJECT_DIR$/project2/1809project2/settinbg.py" />
+        <option value="$PROJECT_DIR$/project2/1809project2/static/index.html.py" />
+        <option value="$PROJECT_DIR$/project2/1809project2/static/index.html" />
+        <option value="$PROJECT_DIR$/project2/1809project2/static/python.html" />
+        <option value="$PROJECT_DIR$/project2/1809project2/WebFrame.py" />
+        <option value="$PROJECT_DIR$/project2/1809project2/Httpserver.py" />
+        <option value="$PROJECT_DIR$/自用文件/自建函数/猴子打字.py" />
+        <option value="$PROJECT_DIR$/自用文件/自建函数/最长的重复.py" />
+        <option value="$PROJECT_DIR$/自用文件/自建函数/long_repeat.py" />
+        <option value="$PROJECT_DIR$/自用文件/自建函数/all_the_same.py" />
+        <option value="$PROJECT_DIR$/自用文件/自建函数/Caesar cipher decriptor..py" />
+        <option value="$PROJECT_DIR$/project2/1808project2/HTTPServer3.0.py" />
+        <option value="$PROJECT_DIR$/project2/1808project2/teach/HTTPSERVER/views.py" />
+        <option value="$PROJECT_DIR$/project2/1808project2/teach/HTTPSERVER/HttpServer.py" />
+        <option value="$PROJECT_DIR$/自用文件/自建函数/Caesar cipher decriptor.py" />
+        <option value="$PROJECT_DIR$/自用文件/自建函数/sun_angle.py" />
+        <option value="$PROJECT_DIR$/自用文件/自建函数/x-o-referee.py" />
+        <option value="$PROJECT_DIR$/project2/1808project2（best）/exercise/HTTPServer.py" />
+        <option value="$PROJECT_DIR$/PythonWeb/1807day01/前端课程资料/999.html" />
+        <option value="$PROJECT_DIR$/算法/排序算法/排序算法.py" />
+        <option value="$PROJECT_DIR$/算法/排序算法/插入排序.py" />
+        <option value="$PROJECT_DIR$/算法/排序算法/快速排序.py" />
+        <option value="$PROJECT_DIR$/算法/排序算法/quick.py" />
+        <option value="$PROJECT_DIR$/自用文件/自建函数/数学/中位数.py" />
+        <option value="$PROJECT_DIR$/project2/1808project2（best）/teach/HTTPSERVER/HttpServer.py" />
+        <option value="$PROJECT_DIR$/PythonNet/day03/课后练习/send_file.py" />
+        <option value="$PROJECT_DIR$/PythonNet/day03/课后练习/recv_file.py" />
+        <option value="$PROJECT_DIR$/PythonNet/day04/html1.0课后练习/index.html" />
+        <option value="$PROJECT_DIR$/PythonNet/day04/html1.0课后练习/HttpServer.html.py" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="y" value="23" />
+    <option name="width" value="1440" />
+    <option name="height" value="797" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope">
+        <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
+          <expand>
+            <path>
+              <item name="1807" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="1807" type="b2602c69:ProjectViewProjectNode" />
+              <item name="1807" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="1807" type="b2602c69:ProjectViewProjectNode" />
+              <item name="1807" type="462c0819:PsiDirectoryNode" />
+              <item name="PythonNet" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="1807" type="b2602c69:ProjectViewProjectNode" />
+              <item name="1807" type="462c0819:PsiDirectoryNode" />
+              <item name="PythonNet" type="462c0819:PsiDirectoryNode" />
+              <item name="day04" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="1807" type="b2602c69:ProjectViewProjectNode" />
+              <item name="1807" type="462c0819:PsiDirectoryNode" />
+              <item name="PythonNet" type="462c0819:PsiDirectoryNode" />
+              <item name="day04" type="462c0819:PsiDirectoryNode" />
+              <item name="html1.0课后练习" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/project2/P2:httpServer3.0" />
+    <property name="settings.editor.selected.configurable" value="vcs.Perforce" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/PythonNet/day03/课后练习" />
+      <recent name="$PROJECT_DIR$/算法/排序算法" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/算法/查找算法·" />
+      <recent name="$PROJECT_DIR$/project2/1807project2" />
+      <recent name="$PROJECT_DIR$/project2" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Python.HttpServer.html">
+    <configuration name="排序算法" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="1807" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/算法/排序算法" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/算法/排序算法/排序算法.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Caesar cipher decriptor" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="1807" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/自用文件/自建函数" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/自用文件/自建函数/Caesar cipher decriptor.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="HttpServer.html" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="1807" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/PythonNet/day04/html1.0课后练习" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/PythonNet/day04/html1.0课后练习/HttpServer.html.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="插入排序" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="1807" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/算法/排序算法" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/算法/排序算法/插入排序.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="快速排序" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="1807" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/算法/排序算法" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/算法/排序算法/quick.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="中位数" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="1807" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/自用文件/自建函数/数学" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/自用文件/自建函数/数学/中位数.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="插入排序" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="1807" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/算法/排序算法" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/算法/排序算法/插入排序.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="recv_file" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="1807" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/PythonNet/day03/课后练习" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/PythonNet/day03/课后练习/recv_file.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="send_file" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="1807" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/PythonNet/day03/课后练习" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/PythonNet/day03/课后练习/send_file.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Python.Caesar cipher decriptor" />
+      <item itemvalue="Python.排序算法" />
+      <item itemvalue="Python.recv_file" />
+      <item itemvalue="Python.send_file" />
+      <item itemvalue="Python.HttpServer.html" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.HttpServer.html" />
+        <item itemvalue="Python.recv_file" />
+        <item itemvalue="Python.send_file" />
+        <item itemvalue="Python.排序算法" />
+        <item itemvalue="Python.Caesar cipher decriptor" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="6007a814-85c3-4bae-918e-49fa9143a452" name="Default Changelist" comment="" />
+      <created>1535888607118</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1535888607118</updated>
+      <workItem from="1543805726508" duration="753000" />
+      <workItem from="1543835019442" duration="8765000" />
+      <workItem from="1543921546008" duration="7341000" />
+      <workItem from="1544009154228" duration="3771000" />
+      <workItem from="1544089671965" duration="4268000" />
+      <workItem from="1544504317084" duration="2000" />
+    </task>
+    <task id="LOCAL-00001" summary="httpserver3.0">
+      <created>1543562101538</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1543562101538</updated>
+    </task>
+    <task id="LOCAL-00002" summary="19:11">
+      <created>1543576337341</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1543576337341</updated>
+    </task>
+    <task id="LOCAL-00003" summary="19:11">
+      <created>1543581230397</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1543581230397</updated>
+    </task>
+    <task id="LOCAL-00004" summary="20:48">
+      <created>1543582100518</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1543582100518</updated>
+    </task>
+    <task id="LOCAL-00005" summary="project2 move">
+      <created>1543627373558</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1543627373558</updated>
+    </task>
+    <task id="LOCAL-00006" summary="project2 move">
+      <created>1543645948999</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1543645948999</updated>
+    </task>
+    <task id="LOCAL-00007" summary="project2 move">
+      <created>1543646730308</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1543646730308</updated>
+    </task>
+    <task id="LOCAL-00008" summary="project2 move">
+      <created>1543647995371</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1543647995371</updated>
+    </task>
+    <task id="LOCAL-00009" summary="project2 move">
+      <created>1543649684745</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1543649684745</updated>
+    </task>
+    <task id="LOCAL-00010" summary="project2 move">
+      <created>1543738109392</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1543738109392</updated>
+    </task>
+    <task id="LOCAL-00011" summary="python Web">
+      <created>1543805839076</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1543805839076</updated>
+    </task>
+    <task id="LOCAL-00012" summary="算法">
+      <created>1544089683080</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1544089683080</updated>
+    </task>
+    <task id="LOCAL-00013" summary="算法">
+      <created>1544089694671</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1544089694671</updated>
+    </task>
+    <task id="LOCAL-00014" summary="created&#10;&#10;# Conflicts:&#10;#&#9;dict/dict_server.py">
+      <created>1538137602767</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1538137602767</updated>
+    </task>
+    <task id="LOCAL-00015" summary="created&#10;&#10;# Conflicts:&#10;#&#9;dict/dict_server.py">
+      <created>1538138054831</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1538138054831</updated>
+    </task>
+    <task id="LOCAL-00016" summary="created&#10;&#10;# Conflicts:&#10;#&#9;dict/dict_server.py">
+      <created>1538140317039</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1538140317039</updated>
+    </task>
+    <task id="LOCAL-00017" summary="created&#10;# Conflicts:&#10;#&#9;dict/dict_server.py">
+      <created>1538147509819</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1538147509819</updated>
+    </task>
+    <task id="LOCAL-00018" summary="created&#10;# Conflicts:&#10;#&#9;dict/dict_server.py">
+      <created>1538148128819</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1538148128819</updated>
+    </task>
+    <task id="LOCAL-00019" summary="created&#10;# Conflicts:&#10;#&#9;dict/dict_server.py">
+      <created>1538148322742</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1538148322742</updated>
+    </task>
+    <task id="LOCAL-00020" summary="created&#10;# Conflicts:&#10;#&#9;dict/dict_server.py">
+      <created>1538148882918</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1538148882918</updated>
+    </task>
+    <task id="LOCAL-00021" summary="created&#10;# Conflicts:&#10;#&#9;dict/dict_server.py">
+      <created>1538187922499</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1538187922499</updated>
+    </task>
+    <task id="LOCAL-00022" summary="created&#10;# Conflicts:&#10;#&#9;dict/dict_server.py">
+      <created>1538224059249</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1538224059250</updated>
+    </task>
+    <task id="LOCAL-00023" summary="created&#10;# Conflicts:&#10;#&#9;dict/dict_server.py">
+      <created>1538230129410</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1538230129410</updated>
+    </task>
+    <task id="LOCAL-00024" summary="created&#10;# Conflicts:&#10;#&#9;dict/dict_server.py">
+      <created>1538230361756</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1538230361756</updated>
+    </task>
+    <task id="LOCAL-00025" summary="created&#10;# Conflicts:&#10;#&#9;dict/dict_server.py">
+      <created>1538232146942</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1538232146942</updated>
+    </task>
+    <task id="LOCAL-00026" summary="created&#10;# Conflicts:&#10;#&#9;dict/dict_server.py">
+      <created>1538670492485</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1538670492485</updated>
+    </task>
+    <task id="LOCAL-00027" summary="created&#10;# Conflicts:&#10;#&#9;dict/dict_server.py">
+      <created>1539184809155</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1539184809155</updated>
+    </task>
+    <task id="LOCAL-00028" summary="created&#10;&#10;# Conflicts:&#10;#&#9;dict/dict_server.py">
+      <created>1543493082035</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1543493082036</updated>
+    </task>
+    <task id="LOCAL-00029" summary="重新上传">
+      <created>1543493830973</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1543493830973</updated>
+    </task>
+    <task id="LOCAL-00030" summary="uploading">
+      <created>1543495991569</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1543495991570</updated>
+    </task>
+    <task id="LOCAL-00031" summary="uploading">
+      <created>1543496035594</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1543496035594</updated>
+    </task>
+    <task id="LOCAL-00032" summary="uploading">
+      <created>1543539846644</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1543539846646</updated>
+    </task>
+    <task id="LOCAL-00033" summary="uploading">
+      <created>1543558475079</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1543558475079</updated>
+    </task>
+    <task id="LOCAL-00034" summary="Httpserver3.0">
+      <created>1543561517128</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1543561517128</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="24900000" />
+  </component>
+  <component name="TodoView" selected-index="3">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="23" width="1440" height="797" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4888438" visible="true" weight="0.11015737" />
+      <window_info id="Structure" order="1" sideWeight="0.5111562" side_tool="true" weight="0.23083198" />
+      <window_info id="Favorites" order="2" side_tool="true" weight="0.32904148" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3219858" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.53576535" weight="0.30070922" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49785408" weight="0.38439715" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="Concurrent Activities Diagram" order="6" weight="0.32719547" />
+      <window_info anchor="bottom" x="10" y="305" width="1140" height="232" id="TODO" order="7" sideWeight="0.49928468" weight="0.32719547" />
+      <window_info anchor="bottom" id="Version Control" order="8" sideWeight="0.63662374" weight="0.28794327" />
+      <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.49284694" weight="0.39007092" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.36337626" side_tool="true" weight="0.28794327" />
+      <window_info anchor="bottom" id="Python Console" order="11" sideWeight="0.52507377" weight="0.27053824" />
+      <window_info anchor="bottom" id="Inspection Results" order="12" sideWeight="0.52301663" weight="0.32907802" />
+      <window_info anchor="bottom" id="Messages" order="13" />
+      <window_info anchor="bottom" id="Docker" order="14" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="15" show_stripe_button="false" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Database" order="3" />
+      <window_info anchor="right" id="SciView" order="4" weight="0.32890856" />
+      <window_info anchor="right" id="Coverage" order="5" side_tool="true" weight="0.32789558" />
+    </layout>
+    <layout-to-restore>
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49150142" visible="true" weight="0.23083198" />
+      <window_info id="Structure" order="1" sideWeight="0.5084986" side_tool="true" weight="0.23083198" />
+      <window_info id="Favorites" order="2" side_tool="true" weight="0.32904148" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32294616" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.53576535" visible="true" weight="0.30070922" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49785408" weight="0.38439715" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="Concurrent Activities Diagram" order="6" weight="0.32719547" />
+      <window_info anchor="bottom" x="10" y="305" width="1140" height="232" id="TODO" order="7" sideWeight="0.49928468" weight="0.32719547" />
+      <window_info anchor="bottom" id="Version Control" order="8" sideWeight="0.63733906" weight="0.28895184" />
+      <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.49284694" weight="0.39093485" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.46423462" side_tool="true" weight="0.30311614" />
+      <window_info anchor="bottom" id="Python Console" order="11" sideWeight="0.52507377" weight="0.27053824" />
+      <window_info anchor="bottom" id="Inspection Results" order="12" sideWeight="0.52301663" weight="0.32907802" />
+      <window_info anchor="bottom" id="Messages" order="13" />
+      <window_info anchor="bottom" id="Docker" order="14" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="15" show_stripe_button="false" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Database" order="3" />
+      <window_info anchor="right" id="SciView" order="4" weight="0.32890856" />
+      <window_info anchor="right" id="Coverage" order="5" side_tool="true" weight="0.32789558" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ORDER">
+      <list>
+        <option value="0" />
+        <option value="2" />
+        <option value="3" />
+        <option value="1" />
+      </list>
+    </option>
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="1">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+        <entry key="10">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+        <entry key="11">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+        <entry key="12">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+        <entry key="13">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+        <entry key="2">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+        <entry key="3">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+        <entry key="4">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+        <entry key="5">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+        <entry key="6">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+        <entry key="7">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+        <entry key="8">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+        <entry key="9">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="SHOW_DETAILS_IN_CHANGES" value="false" />
+              <option name="BEK_SORT_TYPE" value="1" />
+              <option name="SHOW_ROOT_NAMES" value="true" />
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="TEXT_FILTER_SETTINGS">
+                <TextFilterSettings>
+                  <option name="REGEX" value="true" />
+                </TextFilterSettings>
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list>
+              <RecentGroup>
+                <option name="FILTER_VALUES">
+                  <option value="origin/master" />
+                </option>
+              </RecentGroup>
+              <RecentGroup>
+                <option name="FILTER_VALUES">
+                  <option value="my_log" />
+                </option>
+              </RecentGroup>
+              <RecentGroup>
+                <option name="FILTER_VALUES">
+                  <option value="master" />
+                </option>
+              </RecentGroup>
+              <RecentGroup>
+                <option name="FILTER_VALUES">
+                  <option value="HEAD" />
+                </option>
+              </RecentGroup>
+            </list>
+          </value>
+        </entry>
+        <entry key="User">
+          <value>
+            <list>
+              <RecentGroup>
+                <option name="FILTER_VALUES">
+                  <option value="me" />
+                </option>
+              </RecentGroup>
+            </list>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$" />
+    </ignored-roots>
+    <MESSAGE value="httpserver3.0" />
+    <MESSAGE value="19:11" />
+    <MESSAGE value="20:48" />
+    <MESSAGE value="project2 move" />
+    <MESSAGE value="python Web" />
+    <MESSAGE value="算法" />
+    <option name="LAST_COMMIT_MESSAGE" value="算法" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <default-breakpoints>
+        <breakpoint type="python-exception">
+          <properties notifyOnTerminate="true" exception="BaseException">
+            <option name="notifyOnTerminate" value="true" />
+          </properties>
+        </breakpoint>
+      </default-breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/regex/day02/regex/regex.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/regex/project/ID_check.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/regex/project/re_regex_diff.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/自用文件/自建函数/all_the_same.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/regex/regex.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/regex/regex.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="167">
+          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/regex/regex2.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/regex/regexteach/regex.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/regex/regexteach/regex2.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/regex/regexteach/1.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$USER_HOME$/Downloads/RE/regex.py" />
+    <entry file="file://$PROJECT_DIR$/regex/regex.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="373" column="20" selection-start-line="368" selection-start-column="1" selection-end-line="373" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/regex/regexteach/regex3.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="18" column="12" selection-start-line="18" selection-start-column="12" selection-end-line="18" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/regex/regexteach/exer2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="21" column="24" selection-start-line="21" selection-start-column="24" selection-end-line="21" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/regex/regexteach/exer1.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/regex/regex3.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/regex/regex1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="475">
+          <caret line="25" column="8" selection-start-line="25" selection-start-column="8" selection-end-line="25" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project2/1808project2/HTTPServer3.0.py" />
+    <entry file="uml://Python/#/Users/cooper/Library/Mobile Documents/com~apple~CloudDocs/AID/共享文件夹/1807/project2/1808project2/teach/HTTPSERVER/HttpServer.py">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>Python</ID>
+          <OriginalElement>#/Users/cooper/Library/Mobile Documents/com~apple~CloudDocs/AID/共享文件夹/1807/project2/1808project2/teach/HTTPSERVER/HttpServer.py</OriginalElement>
+          <nodes>
+            <node x="" y="">object</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="34.0" y="54.0" />
+          <SelectedNodes />
+          <Categories />
+          <SCOPE>All</SCOPE>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project2/1808project2（best）/teach/HTTPSERVER/static/python.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project2/1808project2（best）/teach/HTTPSERVER/static/Web.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project2/1808project2（best）/teach/HTTPSERVER/static/index.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project2/1808project2（best）/teach/HTTPSERVER/static/Django.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project2/1808project2（best）/teach/HTTPSERVER/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/local/Cellar/python/3.7.0/Frameworks/Python.framework/Versions/3.7/lib/python3.7/socket.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="151">
+          <caret line="211" selection-start-line="211" selection-end-line="211" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/local/Cellar/python/3.7.0/Frameworks/Python.framework/Versions/3.7/lib/python3.7/re.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="284">
+          <caret line="207" column="54" lean-forward="true" selection-start-line="207" selection-start-column="54" selection-end-line="207" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../../../Caches/PyCharm2018.2/python_stubs/-1199943126/builtins.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="151">
+          <caret line="5744" column="6" selection-start-line="5744" selection-start-column="6" selection-end-line="5744" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/python/python007/day07/exercise/season_dict.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/python/python009/day09/code/double_star_dict_args.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/python/python007/day07/exercise/dict1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="12" column="19" lean-forward="true" selection-start-line="12" selection-start-column="19" selection-end-line="12" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/自用文件/自建函数/x-o-referee.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="15" column="19" selection-start-line="15" selection-start-column="19" selection-end-line="15" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/自用文件/自建函数/sun_angle.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/自用文件/自建函数/Caesar cipher decriptor.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="554">
+          <caret line="41" column="8" selection-start-line="41" selection-start-column="8" selection-end-line="41" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PythonWeb/1807day01/前端课程资料/999.html" />
+    <entry file="file://$PROJECT_DIR$/PythonWeb/1807day01/01-HTML.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/local/Cellar/python/3.7.0/Frameworks/Python.framework/Versions/3.7/lib/python3.7/pipes.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="109" column="8" selection-start-line="109" selection-start-column="8" selection-end-line="109" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/算法/排序算法/插入排序.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="23" column="11" selection-start-line="23" selection-end-line="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/算法/排序算法/排序算法.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="11">
+          <caret line="6" column="40" selection-start-line="6" selection-start-column="40" selection-end-line="6" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../../../../Caches/PyCharm2018.3/python_stubs/-1199943126/builtins.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="243">
+          <caret line="3674" column="8" selection-start-line="3674" selection-start-column="8" selection-end-line="3674" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/helpers/typeshed/stdlib/3/typing.pyi">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-8360" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/算法/排序算法/quick.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/自用文件/自建函数/数学/中位数.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project2/1808project2（best）/exercise/HTTPServer.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" column="30" lean-forward="true" selection-start-line="9" selection-start-column="30" selection-end-line="9" selection-end-column="30" />
+          <folding>
+            <element signature="e#0#25#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project2/1808project2（best）/teach/HTTPSERVER/HttpServer.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="524">
+          <caret line="69" column="16" lean-forward="true" selection-start-line="69" selection-start-column="16" selection-end-line="69" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PythonNet/day03/课后练习/recv.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PythonNet/day03/课后练习/recv_file.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="365">
+          <caret line="22" column="16" lean-forward="true" selection-start-line="22" selection-start-column="16" selection-end-line="22" selection-end-column="16" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PythonNet/day03/课后练习/send_file.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="443">
+          <caret line="32" selection-start-line="32" selection-end-line="32" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/local/Cellar/python/3.7.0/Frameworks/Python.framework/Versions/3.7/lib/python3.7/typing.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="149">
+          <caret line="204" selection-start-line="204" selection-end-line="204" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PythonNet/day04/html1.0课后练习/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" column="12" selection-start-line="8" selection-start-column="12" selection-end-line="8" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Documents/GitHub/SpiderMan/TouTiaoJiePai/spider.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PythonNet/day04/html1.0课后练习/HttpServer.html.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="431">
+          <caret line="47" column="22" selection-start-line="47" selection-start-column="22" selection-end-line="47" selection-end-column="22" />
+          <folding>
+            <element signature="e#114#135#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
