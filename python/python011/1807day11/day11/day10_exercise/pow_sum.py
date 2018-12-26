@@ -12,4 +12,4 @@ def f(n):
     # return s
 
 
-print(f(3))
+print(f(3000))

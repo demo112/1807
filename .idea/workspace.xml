@@ -2,9 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6007a814-85c3-4bae-918e-49fa9143a452" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/PythonNet/day04/html1.0课后练习/HttpServer.html.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PythonNet/day04/html1.0课后练习/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dictionaries/cooper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dictionaries/cooper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/自用文件/自建函数/字母岛/second-word.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/自用文件/自建函数/字母岛/text.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/自用文件/自建函数/字母岛/第一个单词.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/自用文件/自建项目/24点/24点beta.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/自用文件/自建项目/24点/text.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/自用文件/自建项目/24点/参考源码.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/linux/linux001/2048game_tkinter.py" beforeDir="false" afterPath="$PROJECT_DIR$/linux/linux001/2048game_tkinter.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python/python011/1807day11/day11/day10_exercise/pow_sum.py" beforeDir="false" afterPath="$PROJECT_DIR$/python/python011/1807day11/day11/day10_exercise/pow_sum.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/自用文件/.idea/dictionaries/cooper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/自用文件/.idea/dictionaries/cooper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/自用文件/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/自用文件/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/自用文件/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/自用文件/.idea/misc.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -24,6 +33,7 @@
     <SUITE FILE_PATH="coverage/1807$WebFrame__1_.coverage" NAME="WebFrame (1) Coverage Results" MODIFIED="1543570490633" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/project2/P2:httpServer3.0/Httpserver_teach/WebFrame" />
     <SUITE FILE_PATH="coverage/1807$send_file.coverage" NAME="send_file Coverage Results" MODIFIED="1544015525999" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PythonNet/day03/课后练习" />
     <SUITE FILE_PATH="coverage/1807$13f6e78626b3fa3fbf0bbec8c0f9163365f2170147eeea9e76aed841fa5b2784.coverage" NAME="13f6e78626b3fa3fbf0bbec8c0f9163365f2170147eeea9e76aed841fa5b2784 Coverage Results" MODIFIED="1542462936438" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../../../../../Containers/net.xmind.vana.app/Data/Library/Application Support/XMind ZEN/vana/workbooks/0359788d4ea872fb96855ae873/resources" />
+    <SUITE FILE_PATH="coverage/1807$pow_sum.coverage" NAME="pow_sum Coverage Results" MODIFIED="1545183440785" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python/python011/1807day11/day11/day10_exercise" />
     <SUITE FILE_PATH="coverage/1807$WebFrame.coverage" NAME="WebFrame Coverage Results" MODIFIED="1543570847420" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/project2/1809project2" />
     <SUITE FILE_PATH="coverage/1807$tcpserver.coverage" NAME="tcpserver Coverage Results" MODIFIED="1542968797455" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PythonNet/day01/teach_day1/课后练习" />
     <SUITE FILE_PATH="coverage/1807$x_o_referee.coverage" NAME="x-o-referee Coverage Results" MODIFIED="1543657952710" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/自用文件/自建函数" />
@@ -33,6 +43,7 @@
     <SUITE FILE_PATH="coverage/1807$tcpclient.coverage" NAME="tcpclient Coverage Results" MODIFIED="1542968808746" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PythonNet/day01/teach_day1/课后练习" />
     <SUITE FILE_PATH="coverage/1807$find_dbs.coverage" NAME="find_dbs Coverage Results" MODIFIED="1543395324394" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/MongoDB/Mine" />
     <SUITE FILE_PATH="coverage/1807$reduce.coverage" NAME="reduce Coverage Results" MODIFIED="1542452873732" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/自用文件/自建函数" />
+    <SUITE FILE_PATH="coverage/1807$yanghui_triangle.coverage" NAME="yanghui_triangle Coverage Results" MODIFIED="1545183409878" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python/python011/1807day11/day11/day10_exercise" />
     <SUITE FILE_PATH="coverage/1807$grid_write.coverage" NAME="grid_write Coverage Results" MODIFIED="1543395487750" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/MongoDB/Mine" />
     <SUITE FILE_PATH="coverage/1807$.coverage" NAME="中位数 Coverage Results" MODIFIED="1543929189248" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/自用文件/自建函数/数学" />
     <SUITE FILE_PATH="coverage/1807$0f4d35250bc658af735a72d1bc8d19ab13a090ef4ef5b3f1b062797170e45b6e.coverage" NAME="0f4d35250bc658af735a72d1bc8d19ab13a090ef4ef5b3f1b062797170e45b6e Coverage Results" MODIFIED="1542462958109" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../../../../../Containers/net.xmind.vana.app/Data/Library/Application Support/XMind ZEN/vana/workbooks/0359788d4ea872fb96855ae873/resources" />
@@ -44,10 +55,12 @@
     <SUITE FILE_PATH="coverage/1807$long_repeat.coverage" NAME="long_repeat Coverage Results" MODIFIED="1543581408220" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/自用文件/自建函数" />
     <SUITE FILE_PATH="coverage/1807$insert_dbs_remove.coverage" NAME="insert_dbs_remove Coverage Results" MODIFIED="1543393147949" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/MongoDB/Mine" />
     <SUITE FILE_PATH="coverage/1807$update.coverage" NAME="update Coverage Results" MODIFIED="1543392510491" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/MongoDB/Mine" />
+    <SUITE FILE_PATH="coverage/1807$2048game_tkinter.coverage" NAME="2048game_tkinter Coverage Results" MODIFIED="1544837428832" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/linux/linux001" />
     <SUITE FILE_PATH="coverage/1807$Httpserver.coverage" NAME="Httpserver Coverage Results" MODIFIED="1543577485120" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/project2/1809project2" />
     <SUITE FILE_PATH="coverage/1807$grid_read.coverage" NAME="grid_read Coverage Results" MODIFIED="1543395511760" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/MongoDB/Mine" />
     <SUITE FILE_PATH="coverage/1807$09224f4a47b031e1db437564bebc2ccf295358806502501277d7784cd5ab3e43.coverage" NAME="09224f4a47b031e1db437564bebc2ccf295358806502501277d7784cd5ab3e43 Coverage Results" MODIFIED="1542462759916" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../../../../../Containers/net.xmind.vana.app/Data/Library/Application Support/XMind ZEN/vana/workbooks/0359788d4ea872fb96855ae873/resources" />
     <SUITE FILE_PATH="coverage/1807$HttpServer__1_.coverage" NAME="HttpServer (1) Coverage Results" MODIFIED="1543646738324" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/project2/1808project2（best）/teach/HTTPSERVER" />
+    <SUITE FILE_PATH="coverage/1807$zhiyinshu.coverage" NAME="zhiyinshu Coverage Results" MODIFIED="1545183596471" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/python/python015/teach_day15/day14_exercise" />
     <SUITE FILE_PATH="coverage/1807$show_dbs.coverage" NAME="show_dbs Coverage Results" MODIFIED="1543395352472" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/MongoDB/Mine" />
   </component>
   <component name="CoverageViewManager">
@@ -57,20 +70,7 @@
     <favorites_list name="1807" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/PythonNet/day04/html1.0课后练习/HttpServer.html.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="431">
-              <caret line="47" column="22" selection-start-line="47" selection-start-column="22" selection-end-line="47" selection-end-column="22" />
-              <folding>
-                <element signature="e#114#135#0" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -100,9 +100,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/PythonNet/day01/teach_day1/课后练习/tcpclient.py" />
-        <option value="$PROJECT_DIR$/PythonNet/day01/teach_day1/课后练习/tcpserver.py" />
-        <option value="$PROJECT_DIR$/PythonNet/day01/teach_day1/课后练习/while_recv_send/tcpclient.py" />
         <option value="$PROJECT_DIR$/PythonNet/day01/teach_day1/课后练习/while_recv_send/tcpserver.py" />
         <option value="$PROJECT_DIR$/PythonNet/day02/课后练习/UDPcelint.py" />
         <option value="$PROJECT_DIR$/PythonNet/day02/课后练习/UDPserver.py" />
@@ -151,6 +148,9 @@
         <option value="$PROJECT_DIR$/PythonNet/day03/课后练习/recv_file.py" />
         <option value="$PROJECT_DIR$/PythonNet/day04/html1.0课后练习/index.html" />
         <option value="$PROJECT_DIR$/PythonNet/day04/html1.0课后练习/HttpServer.html.py" />
+        <option value="$PROJECT_DIR$/linux/linux001/2048game_tkinter.py" />
+        <option value="$PROJECT_DIR$/python/python011/1807day11/day11/day10_exercise/yanghui_triangle.py" />
+        <option value="$PROJECT_DIR$/python/python011/1807day11/day11/day10_exercise/pow_sum.py" />
       </list>
     </option>
   </component>
@@ -184,6 +184,109 @@
             <path>
               <item name="1807" type="b2602c69:ProjectViewProjectNode" />
               <item name="1807" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="1807" type="b2602c69:ProjectViewProjectNode" />
+              <item name="1807" type="462c0819:PsiDirectoryNode" />
+              <item name="linux" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="1807" type="b2602c69:ProjectViewProjectNode" />
+              <item name="1807" type="462c0819:PsiDirectoryNode" />
+              <item name="linux" type="462c0819:PsiDirectoryNode" />
+              <item name="linux001" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="1807" type="b2602c69:ProjectViewProjectNode" />
+              <item name="1807" type="462c0819:PsiDirectoryNode" />
+              <item name="python" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="1807" type="b2602c69:ProjectViewProjectNode" />
+              <item name="1807" type="462c0819:PsiDirectoryNode" />
+              <item name="python" type="462c0819:PsiDirectoryNode" />
+              <item name="python010" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="1807" type="b2602c69:ProjectViewProjectNode" />
+              <item name="1807" type="462c0819:PsiDirectoryNode" />
+              <item name="python" type="462c0819:PsiDirectoryNode" />
+              <item name="python010" type="462c0819:PsiDirectoryNode" />
+              <item name="day10" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="1807" type="b2602c69:ProjectViewProjectNode" />
+              <item name="1807" type="462c0819:PsiDirectoryNode" />
+              <item name="python" type="462c0819:PsiDirectoryNode" />
+              <item name="python010" type="462c0819:PsiDirectoryNode" />
+              <item name="day10" type="462c0819:PsiDirectoryNode" />
+              <item name="exercise" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="1807" type="b2602c69:ProjectViewProjectNode" />
+              <item name="1807" type="462c0819:PsiDirectoryNode" />
+              <item name="python" type="462c0819:PsiDirectoryNode" />
+              <item name="python011" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="1807" type="b2602c69:ProjectViewProjectNode" />
+              <item name="1807" type="462c0819:PsiDirectoryNode" />
+              <item name="python" type="462c0819:PsiDirectoryNode" />
+              <item name="python011" type="462c0819:PsiDirectoryNode" />
+              <item name="1806day11" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="1807" type="b2602c69:ProjectViewProjectNode" />
+              <item name="1807" type="462c0819:PsiDirectoryNode" />
+              <item name="python" type="462c0819:PsiDirectoryNode" />
+              <item name="python011" type="462c0819:PsiDirectoryNode" />
+              <item name="1806day11" type="462c0819:PsiDirectoryNode" />
+              <item name="exercise" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="1807" type="b2602c69:ProjectViewProjectNode" />
+              <item name="1807" type="462c0819:PsiDirectoryNode" />
+              <item name="python" type="462c0819:PsiDirectoryNode" />
+              <item name="python011" type="462c0819:PsiDirectoryNode" />
+              <item name="1807day11" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="1807" type="b2602c69:ProjectViewProjectNode" />
+              <item name="1807" type="462c0819:PsiDirectoryNode" />
+              <item name="python" type="462c0819:PsiDirectoryNode" />
+              <item name="python011" type="462c0819:PsiDirectoryNode" />
+              <item name="1807day11" type="462c0819:PsiDirectoryNode" />
+              <item name="day11" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="1807" type="b2602c69:ProjectViewProjectNode" />
+              <item name="1807" type="462c0819:PsiDirectoryNode" />
+              <item name="python" type="462c0819:PsiDirectoryNode" />
+              <item name="python011" type="462c0819:PsiDirectoryNode" />
+              <item name="1807day11" type="462c0819:PsiDirectoryNode" />
+              <item name="day11" type="462c0819:PsiDirectoryNode" />
+              <item name="day10_exercise" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="1807" type="b2602c69:ProjectViewProjectNode" />
+              <item name="1807" type="462c0819:PsiDirectoryNode" />
+              <item name="python" type="462c0819:PsiDirectoryNode" />
+              <item name="python015" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="1807" type="b2602c69:ProjectViewProjectNode" />
+              <item name="1807" type="462c0819:PsiDirectoryNode" />
+              <item name="python" type="462c0819:PsiDirectoryNode" />
+              <item name="python015" type="462c0819:PsiDirectoryNode" />
+              <item name="teach_day15" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="1807" type="b2602c69:ProjectViewProjectNode" />
+              <item name="1807" type="462c0819:PsiDirectoryNode" />
+              <item name="python" type="462c0819:PsiDirectoryNode" />
+              <item name="python015" type="462c0819:PsiDirectoryNode" />
+              <item name="teach_day15" type="462c0819:PsiDirectoryNode" />
+              <item name="day14_exercise" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="1807" type="b2602c69:ProjectViewProjectNode" />
@@ -238,8 +341,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.HttpServer.html">
-    <configuration name="排序算法" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.zhiyinshu">
+    <configuration name="插入排序" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="1807" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -252,7 +355,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/算法/排序算法/排序算法.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/算法/排序算法/插入排序.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -261,7 +364,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Caesar cipher decriptor" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="2048game_tkinter" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="1807" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -269,12 +372,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/自用文件/自建函数" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/linux/linux001" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/自用文件/自建函数/Caesar cipher decriptor.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/linux/linux001/2048game_tkinter.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -297,28 +400,6 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/PythonNet/day04/html1.0课后练习/HttpServer.html.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="插入排序" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="1807" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/算法/排序算法" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/算法/排序算法/插入排序.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -393,7 +474,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="recv_file" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="pow_sum" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="1807" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -401,12 +482,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/PythonNet/day03/课后练习" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/python/python011/1807day11/day11/day10_exercise" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/PythonNet/day03/课后练习/recv_file.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/python/python011/1807day11/day11/day10_exercise/pow_sum.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -415,7 +496,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="send_file" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="yanghui_triangle" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="1807" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -423,12 +504,34 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/PythonNet/day03/课后练习" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/python/python011/1807day11/day11/day10_exercise" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/PythonNet/day03/课后练习/send_file.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/python/python011/1807day11/day11/day10_exercise/yanghui_triangle.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="zhiyinshu" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="1807" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/python/python015/teach_day15/day14_exercise" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/python/python015/teach_day15/day14_exercise/zhiyinshu.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -438,19 +541,20 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.Caesar cipher decriptor" />
-      <item itemvalue="Python.排序算法" />
-      <item itemvalue="Python.recv_file" />
-      <item itemvalue="Python.send_file" />
+      <item itemvalue="Python.2048game_tkinter" />
       <item itemvalue="Python.HttpServer.html" />
+      <item itemvalue="Python.插入排序" />
+      <item itemvalue="Python.pow_sum" />
+      <item itemvalue="Python.yanghui_triangle" />
+      <item itemvalue="Python.zhiyinshu" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.zhiyinshu" />
+        <item itemvalue="Python.pow_sum" />
+        <item itemvalue="Python.yanghui_triangle" />
+        <item itemvalue="Python.2048game_tkinter" />
         <item itemvalue="Python.HttpServer.html" />
-        <item itemvalue="Python.recv_file" />
-        <item itemvalue="Python.send_file" />
-        <item itemvalue="Python.排序算法" />
-        <item itemvalue="Python.Caesar cipher decriptor" />
       </list>
     </recent_temporary>
   </component>
@@ -470,6 +574,9 @@
       <workItem from="1544009154228" duration="3771000" />
       <workItem from="1544089671965" duration="4268000" />
       <workItem from="1544504317084" duration="2000" />
+      <workItem from="1544836768559" duration="736000" />
+      <workItem from="1545183351291" duration="1217000" />
+      <workItem from="1545785139035" duration="5000" />
     </task>
     <task id="LOCAL-00001" summary="httpserver3.0">
       <created>1543562101538</created>
@@ -713,7 +820,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="24900000" />
+    <option name="totallyTimeSpent" value="26858000" />
   </component>
   <component name="TodoView" selected-index="3">
     <todo-panel id="selected-file">
@@ -725,10 +832,9 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1440" height="797" extended-state="6" />
-    <editor active="true" />
+    <frame x="0" y="23" width="1440" height="797" extended-state="0" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4888438" visible="true" weight="0.11015737" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4888438" visible="true" weight="0.11444921" />
       <window_info id="Structure" order="1" sideWeight="0.5111562" side_tool="true" weight="0.23083198" />
       <window_info id="Favorites" order="2" side_tool="true" weight="0.32904148" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -737,12 +843,12 @@
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49785408" weight="0.38439715" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="Concurrent Activities Diagram" order="6" weight="0.32719547" />
-      <window_info anchor="bottom" x="10" y="305" width="1140" height="232" id="TODO" order="7" sideWeight="0.49928468" weight="0.32719547" />
+      <window_info active="true" anchor="bottom" id="Concurrent Activities Diagram" order="6" weight="0.32624114" />
+      <window_info anchor="bottom" x="10" y="305" width="1140" height="232" id="TODO" order="7" sideWeight="0.49928468" weight="0.32624114" />
       <window_info anchor="bottom" id="Version Control" order="8" sideWeight="0.63662374" weight="0.28794327" />
       <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.49284694" weight="0.39007092" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.36337626" side_tool="true" weight="0.28794327" />
-      <window_info anchor="bottom" id="Python Console" order="11" sideWeight="0.52507377" weight="0.27053824" />
+      <window_info anchor="bottom" id="Python Console" order="11" sideWeight="0.52507377" weight="0.26950353" />
       <window_info anchor="bottom" id="Inspection Results" order="12" sideWeight="0.52301663" weight="0.32907802" />
       <window_info anchor="bottom" id="Messages" order="13" />
       <window_info anchor="bottom" id="Docker" order="14" show_stripe_button="false" />
@@ -1154,39 +1260,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/regex/day02/regex/regex.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/regex/project/ID_check.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/regex/project/re_regex_diff.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/自用文件/自建函数/all_the_same.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/regex/regex.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/regex/regex.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="167">
-          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/regex/regex2.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/regex/regexteach/regex.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -1306,27 +1379,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/自用文件/自建函数/x-o-referee.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="15" column="19" selection-start-line="15" selection-start-column="19" selection-end-line="15" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/自用文件/自建函数/sun_angle.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/自用文件/自建函数/Caesar cipher decriptor.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="554">
-          <caret line="41" column="8" selection-start-line="41" selection-start-column="8" selection-end-line="41" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/自用文件/自建函数/x-o-referee.py" />
+    <entry file="file://$PROJECT_DIR$/自用文件/自建函数/sun_angle.py" />
+    <entry file="file://$PROJECT_DIR$/自用文件/自建函数/Caesar cipher decriptor.py" />
     <entry file="file://$PROJECT_DIR$/PythonWeb/1807day01/前端课程资料/999.html" />
     <entry file="file://$PROJECT_DIR$/PythonWeb/1807day01/01-HTML.html">
       <provider selected="true" editor-type-id="text-editor">
@@ -1375,13 +1430,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/自用文件/自建函数/数学/中位数.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/自用文件/自建函数/数学/中位数.py" />
     <entry file="file://$PROJECT_DIR$/project2/1808project2（best）/exercise/HTTPServer.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="171">
@@ -1445,6 +1494,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/linux/linux001/2048game_tkinter.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="257">
+          <caret line="22" column="23" selection-start-line="22" selection-start-column="23" selection-end-line="22" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/PythonNet/day04/html1.0课后练习/HttpServer.html.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="431">
@@ -1452,6 +1508,40 @@
           <folding>
             <element signature="e#114#135#0" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PythonWeb/1807day01/前端课程资料/img-js/添加元素练习.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/python/python011/1807day11/day11/day10_exercise/yanghui_triangle.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="397">
+          <caret line="52" column="19" lean-forward="true" selection-start-line="52" selection-start-column="19" selection-end-line="52" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/python/python011/1807day11/day11/day10_exercise/pow_sum.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="11" column="14" lean-forward="true" selection-start-line="11" selection-start-column="14" selection-end-line="11" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/python/python011/1806day11/exercise/sorted.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/python/python010/day10/exercise/lambda2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/python/python015/teach_day15/day14_exercise/zhiyinshu.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="279">
+          <caret line="22" column="13" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
         </state>
       </provider>
     </entry>

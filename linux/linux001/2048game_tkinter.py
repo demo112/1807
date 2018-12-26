@@ -19,8 +19,8 @@ class map2048():
 
     # 重新设置游戏数据
     def reset(self):
-        self.__row = 4  # 行数
-        self.__col = 4  # 列数
+        self.__row = 30  # 行数
+        self.__col = 30  # 列数
         self.data = [
             [0 for x in range(self.__col)]
             for y in range(self.__row)
@@ -201,6 +201,11 @@ mapcolor = {
     2048: ("#ecc400", "#f9f6f2"),
     4096: ("#ae84a8", "#f9f6f2"),
     8192: ("#b06ca8", "#f9f6f2"),
+    16384: ("#b06ca8", "#f9f6f2"),
+    # 8192: ("#b06ca8", "#f9f6f2"),
+    # 8192: ("#b06ca8", "#f9f6f2"),
+    # 8192: ("#b06ca8", "#f9f6f2"),
+    # 8192: ("#b06ca8", "#f9f6f2"),
 }
 
 # 游戏各方块的lable数据
